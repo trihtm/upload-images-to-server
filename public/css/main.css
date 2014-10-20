@@ -1,0 +1,4 @@
+.container{width:1000px}
+.sidebar{width:200px;float:left}
+.rightbar{width:700px;float:right}
+.list-photos .photo{display:inline-block;margin:10px}

@@ -1,0 +1,5 @@
+/vendor
+/app/storages
+composer.phar
+composer.lock
+.DS_Store
