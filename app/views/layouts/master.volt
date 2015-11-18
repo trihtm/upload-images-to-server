@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Upanh - Clan.Vn</title>
+        <title>Upanh - BaNghiep.com</title>
 
         {{ stylesheet_link("css/reset.css") }}
         {{ stylesheet_link("css/normalize.css") }}

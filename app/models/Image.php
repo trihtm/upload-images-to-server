@@ -9,7 +9,7 @@ class Image extends \Phalcon\Mvc\Model
 
 	public function getUrl()
 	{
-		$baseUrl = 'http://img.clan.vn/'.str_replace('\\', '/', $this->path).$this->name;
+		$baseUrl = 'http://img.banghiep.com/'.str_replace('\\', '/', $this->path).$this->name;
 
 		return $baseUrl;
 	}

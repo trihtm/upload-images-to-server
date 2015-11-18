@@ -43,7 +43,7 @@ class GuestController extends \Phalcon\Mvc\Controller
 		$this->view->folder 	= $folder;
 		$this->view->folders 	= $folders;
 		$this->view->folder_id 	= $folder_id;
-		$this->view->images 	= $folder->getImage();
+		$this->view->images 	= $folder->getImage(array("order"=>"id DESC"));
 
 		$this->view->module    	= 'upload';
 	}
